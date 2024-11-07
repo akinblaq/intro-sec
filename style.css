@@ -1,0 +1,47 @@
+:root {
+  /* ### Neutral */
+
+  --Almost-White: hsl(0, 0%, 98%);
+  --Medium-Gray: hsl(0, 0%, 41%);
+  --Almost-Black: hsl(0, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1440px;
+}
+
+header p {
+  font-size: 16px;
+  padding: 0 16px;
+}
+
+@media (max-width: 768px) {
+  .sponsors img {
+    width: 60px;
+  }
+}
+
+@media (width > 768px) {
+.navbar-nav{
+  bo
+}
+
+  header {
+    margin: 0 180px;
+  }
+
+  header h1 {
+    padding-right: 190px;
+    padding-top: 50px;
+  }
+
+  header p {
+    padding-left: 0;
+    padding-right: 300px;
+  }
+}
